@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Dark Moon</title>
+		<!-- css begin -->
+		<link rel="stylesheet" href="/public/css/render.css" />
+		<link rel="stylesheet" href="/public/css/module.css" />
+		<!-- css end -->
+	</head>
+	<body>
+
+		<div class="doc-wrap">
+		<!-- doc-wrap begin -->
+
+			<div class="wrapper">
+			<!-- wrapper begin -->
+				<nav class="site-nav">
+					<ul>
+						<li>
+							<a href="/">Home</a>
+						</li>
+						<li>
+							<a href="/views/fullMoon">Full Moon</a>
+						</li>
+						<li class="active">
+							<a href="/views/darkMoon">Dark Moon</a>
+						</li>
+					</ul>
+				</nav>
+			<!-- wrapper end -->
+			</div>
+
+			<div class="wrapper">
+				<article class="details">
+				<!-- article.details begin -->
+					<h2 class="desc-container">
+						<span class="desc">
+						</span>
+					</h2>
+					<div class="date-container">
+						<span class="date">
+						</span>						
+					</div>
+				<!-- article.details end -->
+				</article>
+			</div>
+
+			<div class="wrapper">
+				<div class="links-list">
+					<ul>
+						<li>
+							<a href="days.html">Dark Moon Day(s) 2014</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		<!-- doc-wrap end -->
+		</div>
+
+		<!-- script begin -->
+		<script src="/public/script/lib/require.js"></script>
+		<script>
+			requirejs( [ "/public/script/config/requireJSConfig.js", "/public/script/util/dom.js" ], function( config, dom ) {
+				dom.progress();
+				requirejs( ["getNextDarkMoon"] );
+			} );
+		</script>
+		<!-- script end -->
+	</body>
+</html>

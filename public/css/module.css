@@ -1,0 +1,143 @@
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.doc-wrap {
+	/*max-width: 480px;*/
+	margin: 0 auto;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	padding: 0 10px;
+	position: relative;
+}
+.site-nav {
+	background: rgba(25, 103, 175, 0.61);
+	margin-bottom: 30px;
+}
+.site-nav li {
+	float: left;
+	padding: 3px 5px;
+	width: 33%;
+	text-align: center;
+}
+.site-nav:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.site-nav a {
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 16px;
+}
+.site-nav li.active a {
+	border-bottom: 1px solid #cccccc;
+}
+.details .desc-container {
+	text-align: center;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+.details .desc-container .desc {
+	font-size: 24px;
+}
+.details .date-container{
+	text-align: center;
+}
+.details .date-container .date{
+	font-size: 21px;
+}
+.today-event-container {
+	text-align: center;
+}
+.today-event-container .today-event {
+	font-size: 21px;
+}
+.listWrapper .desc-container {
+	text-align: center;
+	margin: 0 0 10px 0;
+	padding: 0; 
+}
+.listWrapper .desc-container .desc {
+	font-size: 24px;
+}
+.listWrapper .list-container{
+	text-align: center;
+}
+.listWrapper .list-container .list{
+	font-size: 21px;
+}
+.listWrapper .list-container .list li {
+	padding: 0 0 10px 0;
+}
+.listWrapper .list-container .past {
+	color: #999999;
+}
+.listWrapper .list-container .present {
+	font-weight: bold;
+}
+.links-list {
+	margin: 10px 0;
+}
+.links-list li {
+	padding: 3px 0;
+	background: #333;
+}
+.links-list a {
+	display: block;
+	width: 100%;
+	padding: 3px 5px;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+}
+.load-icon {
+	position: absolute;
+	margin: 46% 0 0 0;
+	font-weight: bold;
+}
+.load-icon {
+	-webkit-animation-name: blink;
+	-webkit-animation-duration: .5s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+
+	-moz-animation-name: blink;
+	-moz-animation-duration: .5s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction: alternate;
+
+	animation-name: blink;
+	animation-duration: .5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@-webkit-keyframes blink {
+	from {color: #000000;}
+	to {color: transparent;}
+}
+
+@-moz-keyframes blink {
+	from {color: #000000;}
+	to {color: transparent;}
+}
+
+@keyframes blink {
+	from {color: #000000;}
+	to {color: transparent;}
+}
+.progress {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(255, 255, 255, 0.5);
+	text-align: center;
+}

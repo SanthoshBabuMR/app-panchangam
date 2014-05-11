@@ -1,0 +1,19 @@
+{
+      "meta": {
+          "description": "list of dark moon days for 2014"
+      }
+    , "title": "Dark Moon Days 2014"
+    , "date": [
+        "28 04 2014"
+		  , "28 05 2014"
+		  , "26 06 2014"
+		  , "26 07 2014"
+		  , "25 08 2014"
+		  , "23 09 2014"
+		  , "23 10 2014"
+		  , "22 11 2014"
+		  , "21 12 2014"
+      ]
+    , "format": "DD MM YYYY"
+    , "forYear": 2014
+}
